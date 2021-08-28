@@ -3,7 +3,8 @@
 (2021.06.21. ~ 2021.08.16.)
 - 팀원 : <code>김동현</code> <code>전광훈</code> <code>유경민</code>
 - 리더보드 상위 10%  
-  ![순위](![KakaoTalk_20210828_170854081](https://user-images.githubusercontent.com/80561963/131211272-72512112-fb39-44af-9fae-1d408500c5b5.jpg)
+  ![KakaoTalk_20210828_170854081](https://user-images.githubusercontent.com/80561963/131211272-72512112-fb39-44af-9fae-1d408500c5b5.jpg)
+
 )
 ---
 ## Data
