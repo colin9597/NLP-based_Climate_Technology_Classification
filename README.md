@@ -1,7 +1,7 @@
 # <NLP-based_Climate_Technology_Classification>
 [DACON] 자연어 기반 기후기술분류 AI 경진대회  
 (2021.06.21. ~ 2021.08.16.)
-- 팀원 : '김동현' '전광훈' '유경민'
+- 팀원 : <code>김동현</code> <code>전광훈</code> <code>유경민</code>
 
 ---
 ## Data
