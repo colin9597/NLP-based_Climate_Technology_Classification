@@ -9,8 +9,11 @@
 ## 개발 환경
 #### [개발 환경]
 - 서버 : Colab
+- CPU 2.20GHz 2코어
+- 메모리 12GiB
+- CUDA 11.2
 - Ubuntu 18.04.5 LTS
-- Python 
+- Python 3.7.11
 
 #### [데이터 출처]
 - 녹색기술센터 제공 [link](https://dacon.io/competitions/official/235744/data)
