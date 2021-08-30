@@ -57,3 +57,28 @@
 - 처리 시간과 성능을 고려하여 '사업명'+'과제명'+'요약문_한글키워드'로 피처를 통합
 - (파생변수 생성) train["data"] = '사업명 : ' + train['사업명'] + ', 과제명 : ' + train['과제명'] + ', 키워드 : ' + train["요약문_한글키워드"]  
   => 피처를 통합할 때, 따로 '사업명 :'과 같은 머리글 삽입 (→성능 향상)
+
+#### [불균형 문제 처리]
+###### 1) 중복 데이터 제거
+- label 값이 0인 train 데이터 중 중복되는 데이터 제거
+###### 2) Augmentation
+- EDA(Easy Data Augmentation) 방법 활용  
+  1) SR : 특정 단어를 유의어로 교체하는 방식  
+  2) RI : 임의의 단어를 삽입(Insertion)  
+  3) RD : 임의의 단어를 삭제(Deletion)  
+  4) RS : 문장 내 임의의 두 단어의 위치를 바꾸는 것  
+  => 위와 같은 방법으로 자연어 처리 분야에서 효과적인 데이터 증가를 이루어 낸다고 논문에 소개되어있음.  
+- koeda 라이브러리를 설치  
+<code>$ pip install koeda</code>  
+<code>
+from koeda import EasyDataAugmentation
+
+EDA = EasyDataAugmentation(
+    morpheme_analyzer=None, alpha_sr=0.3, alpha_ri=0.3, alpha_rs=0.3, prob_rd=0.3
+)
+
+text = "아버지가 방에 들어가신다"
+
+result = EDA(text)
+print(result)
+# 아버지가 정실에 들어가신다</code>
