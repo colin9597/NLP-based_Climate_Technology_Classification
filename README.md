@@ -1,7 +1,7 @@
 # <NLP-based_Climate_Technology_Classification>
 [DACON] 자연어 기반 기후기술분류 AI 경진대회  
 (2021.06.21. ~ 2021.08.16.)
-- 팀원 : <code>김동현</code> <code>전광훈</code> <code>유경민</code>
+- 팀원 : `김동현` `전광훈` `유경민`
 - 리더보드 최종 순위 25등(상위 10%)  
   ![KakaoTalk_20210828_170854081](https://user-images.githubusercontent.com/80561963/131211272-72512112-fb39-44af-9fae-1d408500c5b5.jpg)
 ---
@@ -69,9 +69,9 @@
   4) RS : 문장 내 임의의 두 단어의 위치를 바꾸는 것  
 => 위와 같은 방법으로 자연어 처리 분야에서 효과적인 데이터 증가를 이루어 낸다고 논문에 소개되어있음.  
 - koeda 라이브러리를 설치  
-<code>$ pip install koeda</code>  
-<code>
-from koeda import EasyDataAugmentation
+`$ pip install koeda`
+
+`from koeda import EasyDataAugmentation
 
 EDA = EasyDataAugmentation(
     morpheme_analyzer=None, alpha_sr=0.3, alpha_ri=0.3, alpha_rs=0.3, prob_rd=0.3
@@ -81,5 +81,4 @@ text = "아버지가 방에 들어가신다"
 
 result = EDA(text)
 print(result)
-# 아버지가 정실에 들어가신다
-</code>
+# 아버지가 정실에 들어가신다`
