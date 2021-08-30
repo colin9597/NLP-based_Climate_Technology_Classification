@@ -37,18 +37,17 @@
 ---
 
 ## Preprocessing
-#### [형태소 분석기 선정]
-- kkma/komoran/hannanum/mecab/okt  
-1) 띄어쓰기가 제대로 되어있지 않은 문장  
-> mecab > kkma = komoran = okt > hannanum  
+#### [형태소 분석기 선정] - kkma/komoran/hannanum/mecab/okt  
+###### 1) 띄어쓰기가 제대로 되어있지 않은 문장  
+  > mecab > kkma = komoran = okt > hannanum  
 - 더욱 자세한 품사를 알고 싶다면 kkma 나 komoran
 - 간단한 품사를 알고 싶다면 okt
 
-2. 오탈자 때문에 불완전한 문장  
+###### 2) 오탈자 때문에 불완전한 문장  
 - komoran 사용하는 것이 좋다.
 
-3. 속도 비교  
-> mecab > komoran > hannanum > okt > kkma
+###### 3) 속도 비교  
+  > mecab > komoran > hannanum > okt > kkma
 - mecab 이 압도적으로 빠르고, kkma가 압도적으로 느림
 
 => train 데이터에 띄어쓰기 문제나 오탈자가 없으므로 속도를 고려하여 **mecab**을 형태소 분석기로 선정
