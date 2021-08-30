@@ -70,8 +70,8 @@
 => 위와 같은 방법으로 자연어 처리 분야에서 효과적인 데이터 증가를 이루어 낸다고 논문에 소개되어있음.  
 - koeda 라이브러리를 설치  
 `$ pip install koeda`
-
-```from koeda import EasyDataAugmentation
+```
+from koeda import EasyDataAugmentation
 
 EDA = EasyDataAugmentation(
     morpheme_analyzer=None, alpha_sr=0.3, alpha_ri=0.3, alpha_rs=0.3, prob_rd=0.3
@@ -81,4 +81,5 @@ text = "아버지가 방에 들어가신다"
 
 result = EDA(text)
 print(result)
-\# 아버지가 정실에 들어가신다```
+# 아버지가 정실에 들어가신다
+```
