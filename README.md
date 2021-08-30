@@ -81,4 +81,4 @@ text = "아버지가 방에 들어가신다"
 
 result = EDA(text)
 print(result)
-# 아버지가 정실에 들어가신다`
+\# 아버지가 정실에 들어가신다`
