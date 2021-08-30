@@ -84,13 +84,13 @@
   # 아버지가 정실에 들어가신다
   ```
 - label 값이 0이 아닌 train 데이터로 eda 수행  
-  ![eda](https://user-images.githubusercontent.com/80561963/131307302-3f6fd4f6-3536-44e4-90b6-e099617bb614.JPG)
+  ![eda](https://user-images.githubusercontent.com/80561963/131308131-9b02b6e3-d25b-4d10-8e8c-a1dad553069f.JPG)
 - train 데이터 shape : (174303,) → (1199845,)
 
 #### [텍스트 정제]
 ###### 1) 정규표현식을 활용하여 특수문자 제거
 ###### 2) 불용어 처리 : 한글 불용어 사전 파일 이용
 ###### 3) mecab을 활용하여 토큰화 수행  
-![정제](https://user-images.githubusercontent.com/80561963/131307632-8dbc18ed-2efb-4efd-9228-ab727a9ddfee.JPG)
+![정제](https://user-images.githubusercontent.com/80561963/131308177-bed242e0-b8ef-4575-938e-f19c30d32d3e.JPG)
 ###### 4) 인덱스 벡터 전환 및 패딩 처리  
-![전환](https://user-images.githubusercontent.com/80561963/131307667-3f9eba20-8741-4af9-8ade-a5c354bbfd62.JPG)
+![전환](https://user-images.githubusercontent.com/80561963/131308180-f963bd11-5779-4ee2-b6a0-1f0f1167c359.JPG)
