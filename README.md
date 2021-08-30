@@ -64,10 +64,10 @@
 - label 값이 0인 train 데이터 중 중복되는 데이터 제거
 ###### 2) Augmentation
 - EDA(Easy Data Augmentation) 방법 활용  
-  1) SR : 특정 단어를 유의어로 교체하는 방식  
-  2) RI : 임의의 단어를 삽입(Insertion)  
-  3) RD : 임의의 단어를 삭제(Deletion)  
-  4) RS : 문장 내 임의의 두 단어의 위치를 바꾸는 것  
+  1) SR(SynonymReplacement) : 특정 단어를 유의어로 교체하는 방식  
+  2) RI(RandomInsertion) : 임의의 단어를 삽입(Insertion)  
+  3) RD(RandomDeletion) : 임의의 단어를 삭제(Deletion)  
+  4) RS(RandomSwap) : 문장 내 임의의 두 단어의 위치를 바꾸는 것  
 => 위와 같은 방법으로 자연어 처리 분야에서 효과적인 데이터 증가를 이루어 낸다고 논문에 소개되어있음.  
 - koeda 라이브러리를 설치  
 `$ pip install koeda`  
@@ -93,3 +93,7 @@
 ###### 2) 불용어 처리 : 한글 불용어 사전 파일 이용
 ###### 3) mecab을 활용하여 토큰화 수행  
 ###### 4) 인덱스 벡터 전환 및 패딩 처리  
+---
+
+## Modeling
+
