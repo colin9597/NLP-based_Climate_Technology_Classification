@@ -60,6 +60,7 @@
   => 피처를 통합할 때, 따로 '사업명 :'과 같은 머리글 삽입 (→성능 향상)
 
 #### [불균형 문제 처리]
+![불균형문제](https://user-images.githubusercontent.com/80561963/136185680-63815687-5b8d-4e8f-9a2a-7f858eaf75ad.JPG)
 ###### 1) 중복 데이터 제거
 - label 값이 0인 train 데이터 중 중복되는 데이터 제거
 ###### 2) Augmentation
