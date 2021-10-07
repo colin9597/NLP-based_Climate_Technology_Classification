@@ -1,6 +1,6 @@
 # <NLP-based_Climate_Technology_Classification>
 [DACON] 자연어 기반 기후기술분류 AI 경진대회  
-(2021.06.21. ~ 2021.08.16.)
+(2021.06 ~ 2021.08)
 - 팀원 : `김동현` `전광훈` `유경민`
 - 리더보드 최종 순위 25등(상위 10%)  
   ![KakaoTalk_20210828_170854081](https://user-images.githubusercontent.com/80561963/131211272-72512112-fb39-44af-9fae-1d408500c5b5.jpg)
